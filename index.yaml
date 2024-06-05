@@ -9,6 +9,6 @@ entries:
     name: scoperunner
     type: application
     urls:
-    - https://github.com/ddefrancesco/obiwan-charts.git/scoperunner-0.2.1.tgz
+    -  https://ddefrancesco.github.io/obiwan-charts/scoperunner-0.2.1.tgz
     version: 0.2.1
 generated: "2024-06-02T18:36:09.565932+02:00"
