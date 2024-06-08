@@ -6,7 +6,7 @@
 scope: 
   serialport: /dev/ttyUSB0
   environments:
-    fakescope: 'false'
+    fakescope: "false"
 
 replicaCount: 1
 
