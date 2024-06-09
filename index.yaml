@@ -3,12 +3,22 @@ entries:
   scoperunner:
   - apiVersion: v2
     appVersion: 0.2.1
-    created: "2024-06-08T16:02:32.946232+02:00"
+    created: "2024-06-09T18:32:08.879183+02:00"
     description: A Helm chart for Kubernetes
-    digest: a14c52ed3b2953e44c920686b053afc05778819c0592035313c016dad80c0ed1
+    digest: b0f29e1b3dca135c72e940599e260031ceeccfa77645432644e9294bed34c3e5
     name: scoperunner
     type: application
     urls:
     - https://ddefrancesco.github.io/obiwan-charts/scoperunner-0.2.1.tgz
     version: 0.2.1
-generated: "2024-06-08T16:02:32.945406+02:00"
+  - apiVersion: v2
+    appVersion: 0.2.1
+    created: "2024-06-09T18:32:08.878472+02:00"
+    description: A Helm chart for Kubernetes
+    digest: f374f1a3abc00a6e035a2fdae966eb4044eff9ab297156e806bdfed0da6f508a
+    name: scoperunner
+    type: application
+    urls:
+    - https://ddefrancesco.github.io/obiwan-charts/scoperunner-0.2.1-1.tgz
+    version: 0.2.1-1
+generated: "2024-06-09T18:32:08.877323+02:00"
