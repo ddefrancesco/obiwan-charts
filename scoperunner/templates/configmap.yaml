@@ -6,4 +6,8 @@ metadata:
 data:
   # Configuration for the Go application
   SCOPE_SERIALPORT: {{ .Values.scope.serialport }}
-  SCOPE_ENVIRONMENTS_FAKESCOPE: {{ .Values.scope.environments.fakescope }}
+  {{- if .Values.scope.environments.fakescope }}
+  SCOPE_ENVIRONMENTS_FAKESCOPE: "true"
+  {{ else }}
+  SCOPE_ENVIRONMENTS_FAKESCOPE: "false"
+  {{- end }}
